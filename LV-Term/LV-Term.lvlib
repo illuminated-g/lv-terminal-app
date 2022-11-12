@@ -4,5 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Config Panels" Type="Folder">
+		<Item Name="ConfigPanel.lvclass" Type="LVClass" URL="../ConfigPanel/ConfigPanel.lvclass"/>
+		<Item Name="SerialConfigPanel.lvclass" Type="LVClass" URL="../SerialConfigPanel/SerialConfigPanel.lvclass"/>
+		<Item Name="TCPConfigPanel.lvclass" Type="LVClass" URL="../TCPConfigPanel/TCPConfigPanel.lvclass"/>
+	</Item>
 	<Item Name="LV-Term App.lvclass" Type="LVClass" URL="../LV-Term App/LV-Term App.lvclass"/>
 </Library>
